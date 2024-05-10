@@ -17,7 +17,7 @@ public class DemoController {
         return ResponseEntity.ok("Hello World");
     }
 
-    @RequestMapping("/demo2")
+    @RequestMapping("/demo1")
     public ResponseEntity<Object> getUser() {
         Map<String, String> users = Map.of("name", "John", "age", "25");
         return ResponseEntity.ok(users);
